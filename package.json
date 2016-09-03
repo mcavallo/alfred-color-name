@@ -1,0 +1,19 @@
+{
+  "name": "alfred-color-name",
+  "version": "1.0.0",
+  "author": {
+    "name": "Mariano Cavallo",
+    "email": "mariano.cavallo@gmail.com",
+    "url": "https://github.com/mcavallo"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://github.com/mcavallo/alfred-color-name/raw/master/LICENSE"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "pngjs": "^3.0.0",
+    "q": "^1.4.1",
+    "sprintf-js": "^1.0.3"
+  }
+}
