@@ -87,7 +87,7 @@
 	<key>createdby</key>
 	<string>Mariano Cavallo</string>
 	<key>description</key>
-	<string>Get a name for a Hex or RGB bolor</string>
+	<string>Get the name for a hex color</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -199,6 +199,23 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>install|</string>
+				<key>replacestring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>657A1459-7F46-4E7E-AAA9-2C6CFC718589</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>inputstring</key>
 				<string>{query}</string>
 				<key>matchcasesensitive</key>
@@ -215,23 +232,6 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>install|</string>
-				<key>replacestring</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
-			<key>uid</key>
-			<string>657A1459-7F46-4E7E-AAA9-2C6CFC718589</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -240,9 +240,9 @@
 		<key>0B4C8100-6E69-469B-831D-F726BB56D54A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>640</integer>
+			<integer>620</integer>
 			<key>ypos</key>
-			<integer>140</integer>
+			<integer>170</integer>
 		</dict>
 		<key>20BE46A1-A089-4315-913F-26161E27B56F</key>
 		<dict>
@@ -258,19 +258,19 @@
 			<key>xpos</key>
 			<integer>60</integer>
 			<key>ypos</key>
-			<integer>80</integer>
+			<integer>110</integer>
 		</dict>
 		<key>458EBB98-3084-4E41-9C6C-7739009DE2B0</key>
 		<dict>
 			<key>xpos</key>
 			<integer>270</integer>
 			<key>ypos</key>
-			<integer>110</integer>
+			<integer>140</integer>
 		</dict>
 		<key>4B36C7BC-CEB0-4C58-A584-113472D84B51</key>
 		<dict>
 			<key>xpos</key>
-			<integer>520</integer>
+			<integer>620</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
@@ -281,17 +281,17 @@
 			<key>xpos</key>
 			<integer>410</integer>
 			<key>ypos</key>
-			<integer>170</integer>
+			<integer>200</integer>
 		</dict>
 		<key>657A1459-7F46-4E7E-AAA9-2C6CFC718589</key>
 		<dict>
 			<key>xpos</key>
 			<integer>520</integer>
 			<key>ypos</key>
-			<integer>170</integer>
+			<integer>200</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/mcavallo/alfred-color-name</string>
 </dict>
 </plist>
