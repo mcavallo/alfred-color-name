@@ -1,4 +1,4 @@
-# Alfred Color Name Workflow
+# Alfred Workflow: Color Name
 
 Based on [Name that Color](http://chir.ag/projects/name-that-color/). Adapted to function as an Alfred workflow for convenience with some tweaks to fit my personal needs.
 
